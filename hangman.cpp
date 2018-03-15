@@ -1,3 +1,5 @@
+//------ Copyright (C) 2018 "NNmJYwg" -------//
+//------ GPL V3 -------//
 #include <iostream>
 #include <string>
 #include <vector>
