@@ -4,6 +4,14 @@
 
 using namespace std;
 
+int game(string word);
+
+int main()
+{
+	game("mudda");
+	return 0;
+}
+
 int game(string word)
 {
 	vector<char> c;
@@ -65,10 +73,4 @@ int game(string word)
 		cout << "\n\n";
 	}
 	return lives;
-}
-
-int main()
-{
-	game("mudda");
-	return 0;
 }
