@@ -30,8 +30,9 @@ int game(string word)
     	std::cout << "\n";
 		cout << "Enter a letter in word: ";
 		cout << display << " : ";
-		char response;
-		cin >> response;
+		char resp;
+		cin >> resp;
+		char response = tolower(resp);
 		bool duplicate = false;
 		bool goodGuess = false;
 		for(int i = 0; i < word.length(); i++)
